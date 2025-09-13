@@ -116,6 +116,8 @@ Setelah semua data selesai diisi, sistem akan otomatis memberikan ID unik untuk 
 
 Lalu untuk melihat daftar koleksi yang telah ditambahkan, user ketik 2. Di bagian akhir, program menampilkan instruksi “Tekan Enter untuk melanjutkan…” agar pengguna bisa kembali ke menu utama dan melanjutkan ke fitur lain sesuai kebutuhan.
 
+## **Validasi Input**
+
 ### Jika Inputan tahun tidak di antara 0 - 3000
 
 <img width="427" height="147" alt="image" src="https://github.com/user-attachments/assets/ebe9b2cd-cf44-43ca-8d08-f4a26d90b381" />
