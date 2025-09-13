@@ -169,6 +169,8 @@ Program akan menampilkan data lama seperti nama barang, kategori, asal, tahun pe
 
 Setelah memperbarui data, pilih menu 2 (Tampilkan Semua Barang) untuk mengecek hasilnya. Daftar koleksi akan menampilkan informasi terbaru—termasuk perubahan pada nama, kategori, kondisi, dan kolom lainnya sehingga pengguna bisa memastikan update yang telah dilakukan sebelumnya sudah tersimpan dengan benar.
 
+## **Validasi Input**
+
 ### Jika Input ID yang tidak terdaftar
 
 <img width="402" height="102" alt="Screenshot 2025-09-09 130728" src="https://github.com/user-attachments/assets/655ae614-a723-4fb4-ad74-ec7dc907345f" />
@@ -249,6 +251,8 @@ Pengguna ingin mencari berdasarkan kategori. Pada kolom Kata kunci, pengguna men
 
 Pengguna ingin mencari berdasarkan asal barang. Di kolom Kata kunci, pengguna mengetik “Jepang” lalu menekan Enter. Sistem akan menampilkan semua barang yang asalnya dari Jepang.
 
+## **Validasi Input**
+
 ### Input Kata Kunci yang tidak terdaftar
 
 <img width="388" height="119" alt="Screenshot 2025-09-08 140255" src="https://github.com/user-attachments/assets/c3013074-2505-4453-ab92-17a4e1cbfbc2" />
@@ -279,6 +283,8 @@ Saat pengguna memilih menu 6 lalu mengetik y pada konfirmasi, maka program akan 
 <img width="469" height="283" alt="Screenshot 2025-09-09 130223" src="https://github.com/user-attachments/assets/7b4a8cb2-1fb8-4a97-a604-6ede66c4fb95" />
 
 Proses keluar dibatalkan. Program akan menampilkan pesan “<< Kembali ke menu utama AntikAesthetic >>” dan pengguna kembali ke menu utama.
+
+## **Validasi Input**
 
 ### Jika memilih selain "y" dan "n"
 
