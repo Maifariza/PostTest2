@@ -70,7 +70,21 @@
 7. **Keluar dari program**
    
    Menu terakhir digunakan untuk menutup aplikasi. Sebelum benar-benar keluar, sistem meminta konfirmasi. Kalau pengguna mengetik “y”, program berhenti dengan ucapan terima kasih. Jika tidak, pengguna kembali ke menu utama.
+---
 
+<h1 align="center">Penerapan MVC dan Struktur Packages Program</h1>
+
+1. Package model 
+   
+    Berisi class Model yang menyimpan data barang antik. Class ini memiliki beberapa properties seperti id, nama, kategori, asal, tahun, material, kondisi, sumber, dan hargaPerolehan. Data diakses menggunakan getter dan setter untuk menjaga enkapsulasi, serta diinisialisasi melalui konstruktor.
+
+2. Package service 
+
+    Berisi class Service yang mengatur logika program. Semua proses CRUD (Create, Read, Update, Delete), pencarian data, serta validasi input dilakukan di sini. Controller menjadi penghubung antara data (Model) dan tampilan (View).
+
+3. Package main 
+   
+    Berisi class Main yang menjadi entry point program. Di sini ditampilkan menu utama ke user, menerima pilihan, lalu meneruskan perintah ke Controller (Service) untuk diproses.
 ---
 
 <h1 align="center">Menu Utama AntikAesthetic</h1>
