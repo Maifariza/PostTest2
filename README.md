@@ -74,15 +74,15 @@
 
 <h1 align="center">Penerapan MVC dan Struktur Packages Program</h1>
 
-1. Package model 
+1. Package model (Model)
    
     Berisi class Model yang menyimpan data barang antik. Class ini memiliki beberapa properties seperti id, nama, kategori, asal, tahun, material, kondisi, sumber, dan hargaPerolehan. Data diakses menggunakan getter dan setter untuk menjaga enkapsulasi, serta diinisialisasi melalui konstruktor.
 
-2. Package service 
+2. Package service (Controller)
 
     Berisi class Service yang mengatur logika program. Semua proses CRUD (Create, Read, Update, Delete), pencarian data, serta validasi input dilakukan di sini. Controller menjadi penghubung antara data (Model) dan tampilan (View).
 
-3. Package main 
+3. Package main (View)
    
     Berisi class Main yang menjadi entry point program. Di sini ditampilkan menu utama ke user, menerima pilihan, lalu meneruskan perintah ke Controller (Service) untuk diproses.
 ---
