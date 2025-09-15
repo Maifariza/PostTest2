@@ -76,15 +76,16 @@
 
 1. Package model (Model)
    
-    Berisi class Model yang menyimpan data barang antik. Class ini memiliki beberapa properties seperti id, nama, kategori, asal, tahun, material, kondisi, sumber, dan hargaPerolehan. Data diakses menggunakan getter dan setter untuk menjaga enkapsulasi, serta diinisialisasi melalui konstruktor.
+    Package ini berisi class Model yang merepresentasikan data barang antik. Class ini memiliki beberapa properti seperti id, nama, kategori, asal, tahun, material, kondisi, sumber, dan hargaPerolehan. Semua properti dibuat dengan access modifier private untuk menjaga prinsip enkapsulasi. Data diakses dan diubah melalui getter dan setter, serta diinisialisasi menggunakan konstruktor. Dengan adanya package ini, semua data barang antik tersimpan rapi dalam bentuk objek.
 
 2. Package service (Controller)
 
-    Berisi class Service yang mengatur logika program. Semua proses CRUD (Create, Read, Update, Delete), pencarian data, serta validasi input dilakukan di sini. Controller menjadi penghubung antara data (Model) dan tampilan (View).
+    Package ini berisi class Service yang mengatur logika bisnis program. Semua operasi CRUD (Create, Read, Update, Delete) dijalankan di sini, termasuk juga fitur pencarian data dan validasi input. Controller ini menerima perintah dari View (Main), memprosesnya dengan memanfaatkan data dari Model, lalu mengembalikan hasilnya kembali ke View. Dengan cara ini, logika program terpusat di satu tempat dan tidak tercampur dengan tampilan.
 
 3. Package main (View)
    
-    Berisi class Main yang menjadi entry point program. Di sini ditampilkan menu utama ke user, menerima pilihan, lalu meneruskan perintah ke Controller (Service) untuk diproses.
+    Package ini berisi class Main yang menjadi entry point program. Class ini berfungsi sebagai View, yaitu menampilkan menu utama kepada user dan menerima input pilihan. Setelah menerima input, class ini akan memanggil fungsi yang sesuai di Controller (Service). Karena hanya berfungsi sebagai antarmuka pengguna, class ini tidak diwajibkan memiliki properti maupun konstruktor.
+   
 ---
 
 <h1 align="center">Menu Utama AntikAesthetic</h1>
