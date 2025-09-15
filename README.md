@@ -207,6 +207,8 @@ Jika pengguna ketik n, Tidak ada data yang berubah dan pengguna bisa menekan Ent
 
 Jika pengguna ketik y, maka akan muncul pesan bahwa data itu sudah dihapus.
 
+## **Validasi Input**
+
 ### Jika Input ID yang tidak terdaftar
 
 <img width="329" height="130" alt="Screenshot 2025-09-08 133959" src="https://github.com/user-attachments/assets/280c8281-eecf-4156-ba4f-b9b1d97c000b" />
