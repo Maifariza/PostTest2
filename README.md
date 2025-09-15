@@ -73,7 +73,7 @@
 
 ---
 
-# Menu Utama AntikAesthetic
+<h1 align="center">Menu Utama AntikAesthetic</h1>
 
 <img width="468" height="203" alt="Screenshot 2025-09-09 130453" src="https://github.com/user-attachments/assets/d3f33513-9c4f-46f7-b978-f377ab2f1dfd" />
 
